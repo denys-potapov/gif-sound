@@ -1,0 +1,49 @@
+.gif-sound {
+  display: inline;
+  position: relative;
+  padding-bottom: 3px; /* FIXME: This is just so the toolbar doesn't disappear when you move the mouse to it. But figure out a better way of doing that. */
+}
+
+.gif-sound_toolbar {
+  /*display: none;*/
+  visibility: hidden;
+  overflow: visible;
+
+  padding: 3px;
+
+  position: absolute;
+  left: 0;
+  z-index: 50; /* XXX */
+}
+
+.gif-sound_toolbar button {
+  width: 2em;
+  height: 2em;
+  text-align: center;
+}
+.gif-sound_simple_tools {
+  display: inline-block;
+}
+
+.gif-sound_cur_frame  { width: 2em; color: black; }
+.gif-sound_delay_info { width: 2em; color: black; }
+
+.gif-sound:hover .gif-sound_toolbar {
+  visibility: visible;
+}
+
+.gif-sound {
+  text-decoration: none;
+  color: black;
+}
+
+.gif-sound_overlaid {
+  border: 5px solid red;
+}
+
+.gif-sound_overlaid:hover {
+  border: 5px solid blue;
+}
+
+
+
