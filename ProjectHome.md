@@ -1,0 +1,1 @@
+Adding sound data to animated gifs
